@@ -8,6 +8,6 @@ let postagem = {
         {autor: 'a', mensagem: 'b'}
     ],
     aoVivo: true
-}
+};
 
 console.log(postagem);

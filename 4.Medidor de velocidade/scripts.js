@@ -3,11 +3,9 @@
 // Utilizando o Math.floor
 // Caso pontos maior que 12 => "Carteira suspensa"
 
-verificarVelocidade (40)
+verificarVelocidade(70)
 
-function verificarVelocidade(velocidade) {
-    const valorVelocidadeMaxima = 70;
-    const kmPontos = 5;
+function verificarVelocidade(velocidade, valorVelocidadeMaxima = 70, kmPontos = 5) {
     if (velocidade <= valorVelocidadeMaxima) {
         console.log('Velocidade permitida.');
     } else {
